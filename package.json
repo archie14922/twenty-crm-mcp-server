@@ -1,0 +1,40 @@
+{
+  "name": "dempsey-twenty-crm-mcp-server",
+  "version": "2.0.0",
+  "description": "Dempsey Design fork of the Twenty CRM MCP server. Adds field-level filtering (category, priority, stage, etc.), fixed and unified metadata tools, composite workflow tools, and live-schema-driven enum descriptions.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "twenty",
+    "crm",
+    "server",
+    "claude",
+    "ai",
+    "assistant",
+    "natural-language",
+    "api",
+    "integration"
+  ],
+  "author": "Dempsey Design (forked from mhenry3164)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhenry3164/twenty-crm-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhenry3164/twenty-crm-mcp-server/issues"
+  },
+  "homepage": "https://github.com/mhenry3164/twenty-crm-mcp-server#readme"
+}
